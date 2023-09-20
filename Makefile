@@ -4,5 +4,9 @@ all: compile run
 
 compile:
 	javac $(filename).java
+
 run:
-	java $(filename).java
+	java $(filename)
+
+clean:
+	rm $(filename).class
